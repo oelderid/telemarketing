@@ -18,6 +18,7 @@ RUN pip install streamlit
 RUN pip install seaborn
 RUN pip install matplotlib
 RUN pip install xlsxwriter
+RUN pip install protobuf
 
 
 WORKDIR /home/app
