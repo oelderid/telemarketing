@@ -65,6 +65,9 @@ def main():
     st.sidebar.write("## Suba o arquivo")
     data_file_1 = st.sidebar.file_uploader("Bank marketing data", type = ['csv','xlsx'])
 
+    if (data_file_1 is None):
+        data_file_1 = 'bank-additional.csv'
+
     # Verifica se há conteúdo carregado na aplicação
     if (data_file_1 is not None):
         bank_raw = load_data(data_file_1)
