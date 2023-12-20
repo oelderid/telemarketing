@@ -4,15 +4,13 @@ Dashboard em Streamlit com dados de telemarketing para análise de dados.
 
 ## Utilização
 
+### Link para a aplicação
+
+* https://eld-telemarketing.onrender.com/
+
 ### Instalação e Dependencias
 
 * Aplicação pode ser instalada atráves de container Docker
-* Pode ser acessada através do endereço https://eld-telemarketing.onrender.com/
-
-### Instalação
-
-* Como/aonde fazer o download do seu projeto/programa
-* Quaisquer modificação necessária nos arquivos/diretórios
 
 ## Fontes de inspiração
 
